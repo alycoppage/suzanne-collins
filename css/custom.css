@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+body, .card {
+    background-color: #34363a;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+h2, .navbar {
+    font-family: BankGothicBT-Medium;
+}
+.navbar {
+    font-size: 2rem;
+}
+.btn, .btn:active, btn:hover, .btn:checked, .btn:visited, btn:any-link {
+    background-color: #d19d2d;
+    color: white;
+}
+img {
+    max-width: 100%;
+    height: auto; 
+}
+.cover {
+    max-width: 230px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.slide {
+    max-width: 350px;
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+footer {
+    background-color: #222529;
+    padding: 10px;
+}
