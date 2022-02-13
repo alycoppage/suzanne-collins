@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
+@font-face {
+   font-family: BankGothicBT-Medium;
+   src: url("Bank Gothic Medium.otf") format("opentype");
+}
 body, .card {
     background-color: #34363a;
     color: white;
