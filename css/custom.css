@@ -2,7 +2,7 @@
 /* Add your custom CSS declarations below  */
 @font-face {
    font-family: BankGothicBT-Medium;
-   src: url("fonts/BankGothicBTT-Medium.woff") format("woff");
+   src: url("fonts/BankGothicBT-Medium.woff") format("woff"), url("fonts/BankGothicBT-Medium.ttf") format("truetype");
 }
 body, .card {
     background-color: #34363a;
