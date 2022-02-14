@@ -10,7 +10,7 @@ body, .card {
     font-family: 'Lato', sans-serif;
 }
 h2, .navbar {
-    font-family: 'BankGothicBT-Medium', sans-serif;
+    font-family: BankGothicBT-Medium, sans-serif;
 }
 .navbar {
     font-size: 2rem;
