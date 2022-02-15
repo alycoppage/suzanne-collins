@@ -9,7 +9,7 @@ body, .card {
     color: white;
     font-family: 'Lato', sans-serif;
 }
-h2, .navbar {
+h2, h3, .navbar {
     font-family: 'BankGothicBT-Medium', sans-serif;
 }
 .navbar {
