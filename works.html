@@ -21,55 +21,54 @@
             .series, .learn {
                 margin: 5px;
             }
-		}
-	.image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.book {
-    position: relative;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-}
-.overlay-text {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-}
-.book:hover .overlay {
-    opacity: .5;
-}
-.book:hover .overlay-text {
-    opacity: 1;
-}
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+            .image {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .book {
+                position: relative;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: black;
+            }
+            .overlay-text {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+            }
+            .book:hover .overlay {
+                opacity: .5;
+            }
+            .book:hover .overlay-text {
+                opacity: 1;
+            }
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
         </style>
 
 	</head>
@@ -100,19 +99,24 @@
             </div>
         </nav>
         <div style="padding: 10px;">
+            <!-- Hunger Games -->
             <h2>The Hunger Games Trilogy</h2>
             <div class="row d-flex justify-content-around" style="padding-top: 10px;">
                 <img src="images/hunger-games.jpg" class="cover" alt="Cover of 'The Hunger Games' by Suzanne Collins">
                 <p class="col-md-9">In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.Sixteen-year-old Katniss Everdeen regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to death before-and survival, for her, is second nature. Still, if she is to win, she will have to start making choices that weigh survival against humanity and life against love.</p>
             </div>
             <div class="d-flex justify-content-center">
+                <!-- Buy series btn -->
                 <a class="btn series" role="button" href="https://www.barnesandnoble.com/w/the-hunger-games-trilogy-boxset-suzanne-collins/1114862388?ean=9780545387200" target="_blank">Buy Series</a> 
+                <!-- Collapse btn -->
                 <a class="btn learn" role="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse1" aria-expanded="false" aria-controls="multiCollapse1">
                     Learn More
                 </a>
             </div>
+            <!-- Collapsable content -->
             <div class="collapse multi-collapse" id="multiCollapse1">
                 <div class="card card-body">
+                    <!-- Content to show on med+ screens -->
                     <div class="row d-none d-md-block">
                         <div class="row">
                             <div class="col-4">
@@ -153,6 +157,7 @@
                         </div>
                         </div>
                     </div>
+                    <!-- Content to show on sm/xs screens -->
                     <div class="d-md-none d-flex justify-content-center">
                         <div id="carouselHGControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                             <div class="carousel-inner">
@@ -206,19 +211,24 @@
                     </div>
                 </div>
             </div>
+            <!-- Underland -->
             <h2>The Underland Chronicles</h2>
             <div class="row d-flex justify-content-around" style="padding-top: 10px;">
                 <img src="images/gregor-1.jpeg" class="cover" alt="Cover for Gregor and the Overlander">
                 <p class="col-md-9">When Gregor follows his little sister through a grate in the laundry room of their New York apartment building, he hurtles into the dark Underland beneath the city. There, humans live uneasily beside giant spiders, bats, cockroaches, and rats--but the fragile peace is about to fall apart. Gregor wants no part in this conflict, but again and again, he and his family are drawn into the Underland. Gregor must find his place in the frightening prophecies he encounters, the strength to protect his family, and the courage to defend against an army of giant rats.</p>
             </div>
             <div class="d-flex justify-content-center">
+                <!-- Buy btn -->
                 <a class="btn series" role="button" href="https://www.barnesandnoble.com/w/gregor-the-overlander-collection-books-1-5-suzanne-collins/1119340529?ean=9780545459075" target="_blank">Buy Series</a>
+                <!-- Collapse btn -->
                 <button class="btn learn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse2" aria-expanded="false" aria-controls="multiCollapse2">
                     Learn More
                 </button>
             </div>
+            <!-- Collapsable content -->
             <div class="collapse multi-collapse" id="multiCollapse2">
                 <div class="card card-body">
+                    <!-- Content to show on med+ screens -->
                     <div class="row d-none d-md-block">
                         <div class="d-flex justify-content-around">
                             <div>
@@ -250,6 +260,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Content to show on sm/xs screens -->
                     <div class="d-md-none d-flex justify-content-center">
                         <div id="carouselGUControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                             <div class="carousel-inner">
@@ -296,18 +307,22 @@
                     </div>
                 </div>
             </div>
+            <!-- Kids books -->
             <h2>Children's Books</h2>
             <div class="row d-flex justify-content-around" style="padding-top: 10px;">
                 <img src="images/jungle.jpg" class="cover" alt="Cover of 'The Hunger Games' by Suzanne Collins">
                 <p class="col-md-9">"In this picture book, Collins sensitively examines the impact of war on the very young, using her own family history as a template. Suzy is the youngest of four children—Proimos draws her with impossibly big, questioning blue eyes and a mass of frizzy red hair—and she is struggling to understand the changes in her family..." --Publishers Weekly, STARRED REVIEW</p>
             </div>
+            <!-- Collapse button -->
             <div class="d-flex justify-content-center">
                 <button class="btn learn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapse3" aria-expanded="false" aria-controls="multiCollapse3">
                     Learn More
                 </button>
             </div>
+            <!-- Collapsable content -->
             <div class="collapse multi-collapse" id="multiCollapse3">
                 <div class="card card-body">
+                    <!-- Content to show on med+ screens -->
                     <div class="row d-none d-md-block">
                         <div class="d-flex justify-content-around">
                             <div>
@@ -322,6 +337,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Content to show on sm & xs screens -->
                     <div class="d-md-none d-flex justify-content-center">
                         <div id="carouselKidsControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                             <div class="carousel-inner">
